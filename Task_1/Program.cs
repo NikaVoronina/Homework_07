@@ -8,10 +8,10 @@
 // 8 7,8 -7,1 9
 
 Console.Write("Введите количество строк массива: ");
-int a = Convert.ToInt32(Console.ReadLine());
+int m = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите количество столбцов массива: ");
-int b = Convert.ToInt32(Console.ReadLine());
-double[,] numbers = new double[a, b];
+int n = Convert.ToInt32(Console.ReadLine());
+double[,] numbers = new double[m, n];
 FillArrayRandomNumbers(numbers);
 PrintArray(numbers);
 
